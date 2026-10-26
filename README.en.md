@@ -51,11 +51,12 @@ A CRUD exercise became a complete application: static front end, REST API and da
 ### ForumHub
 
 ```mermaid
-flowchart LR
+flowchart TD
   C["Client / API"] -->|"POST /login"| A["AuthController"]
-  A --> T["TokenService (HMAC256)"]
-  T -->|"JWT"| C
-  C -->|"GET, POST, PUT, DELETE /topicos"| H["TopicoController"]
+  A --> T["TokenService"]
+  T --> J["JWT"]
+  C -->|"CRUD /topicos"| H["TopicoController"]
+  H --> D["DTOs"]
   H --> R["TopicoRepository"]
   R --> DB[("MySQL")]
 ```
