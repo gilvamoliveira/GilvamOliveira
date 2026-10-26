@@ -2,18 +2,13 @@
 
 # Gilvam Oliveira
 
-**Desenvolvedor em Formação | Full Stack**
+**Desenvolvedor Full Stack**
 
 Java · Spring Boot · Node.js · JavaScript · SQL
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gilvam%20Oliveira-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gilvam-oliveira)
-[![Email](https://img.shields.io/badge/Email-oliveiragilvam70%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oliveiragilvam70@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-GilvamOliveira-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GilvamOliveira)
-[![Design](https://img.shields.io/badge/Design-Portf%C3%B3lio-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://github.com/GilvamOliveira/design-portfolio)
-
 São Paulo, SP · Aberto a estágio e posições júnior (remoto ou híbrido)
 
-<sub>[English version](README.en.md)</sub>
+[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [GitHub](https://github.com/GilvamOliveira) · [English](README.en.md)
 
 </div>
 
@@ -21,80 +16,87 @@ São Paulo, SP · Aberto a estágio e posições júnior (remoto ou híbrido)
 
 ## Sobre
 
-Desenvolvedor em formação com foco full stack e base em Gestão da Tecnologia da Informação. Construo aplicações de ponta a ponta — interfaces, APIs, modelagem de dados e deploy — com foco em código legível, testes e documentação.
+Desenvolvedor full stack com base em Gestão da Tecnologia da Informação. Construo aplicações de ponta a ponta — interfaces, APIs, modelagem de dados e deploy — com foco em código legível, testes e documentação.
 
-Busco minha primeira oportunidade como desenvolvedor full stack, com interesse especial em back-end e dados, contribuindo com entregas reais e evoluindo junto ao time.
+Busco minha primeira oportunidade como desenvolvedor full stack, com interesse especial em back-end e dados. Gosto de transformar requisitos em fluxos claros, registrar decisões e deixar cada projeto reproduzível.
 
 ## Stack
 
 | Área | Tecnologias |
 | --- | --- |
 | **Front-end** | HTML5 · CSS3 · JavaScript |
-| **Back-end** | Java 17 · Spring Boot · Spring Security · JWT · Node.js · APIs REST · C# |
+| **Back-end** | Java 17 · Spring Boot · APIs REST · Node.js · JWT · C# |
 | **Dados** | Python · Pandas · SQL · MySQL · PostgreSQL · SQLite · Streamlit · Plotly |
-| **Ferramentas** | Git · GitHub · GitHub Actions · Maven · npm · Figma · IntelliJ IDEA · VS Code |
+| **Ferramentas** | Git · GitHub · GitHub Actions · Maven · npm · Docker · Figma · IntelliJ IDEA · VS Code |
 | **Qualidade** | Testes automatizados · CI · documentação técnica |
 
 ## Projetos em destaque
 
-### CRUD de Clientes — aplicação full-stack
+Três projetos que mostram o que sei fazer de ponta a ponta. Cada um tem um estudo de caso com contexto, decisões técnicas, testes e próximos passos.
 
-Cadastro de clientes com API REST em Node.js e SQLite, paginação, filtros e autenticação opcional. Front-end em HTML, CSS e JavaScript puro, com testes automatizados e fallback para localStorage.
+### CRUD de Clientes
 
-`Node.js` `SQLite` `JavaScript` `HTML/CSS`
+[![Tela do CRUD de Clientes com dashboard, filtros e tabela paginada](assets/projects/crud.png)](https://gilvamoliveira.github.io/CRUD/)
 
-[Repositório](https://github.com/GilvamOliveira/CRUD) · [Demo](https://gilvamoliveira.github.io/CRUD/)
+Um CRUD deixou de ser exercício de formulário e virou uma aplicação completa: front-end estático, API REST e banco de dados. A mesma interface funciona online com `localStorage` ou localmente com Node.js e SQLite.
 
-<!-- Métrica sugerida: nº de clientes suportados, tempo de resposta ou cobertura de testes. -->
+- **Produto:** busca, filtros, paginação no servidor, dashboard, exportação CSV/JSON, exclusão em lote com desfazer e autenticação opcional.
+- **Engenharia:** validação nos dois lados, bloqueio de duplicidade, soft delete, headers de segurança e rate limiting.
+- **Qualidade:** 23 testes automatizados, ESLint, CI e imagem Docker.
 
-### ForumHub — API REST para fórum
+`Node.js` `SQLite` `JavaScript` `REST` `Docker`
 
-Autenticação e autorização com JWT, CRUD de tópicos e persistência em MySQL. Código organizado em camadas e testes de contexto.
+[Demo](https://gilvamoliveira.github.io/CRUD/) · [Código](https://github.com/GilvamOliveira/CRUD) · [Estudo de caso](https://github.com/GilvamOliveira/CRUD/blob/main/CASE_STUDY.md)
 
-`Java` `Spring Boot` `Spring Security` `JWT` `MySQL`
+### ForumHub
 
-[Repositório](https://github.com/GilvamOliveira/forumhub)
+```mermaid
+flowchart LR
+  C["Cliente / API"] -->|"POST /login"| A["AuthController"]
+  A --> T["TokenService (HMAC256)"]
+  T -->|"JWT"| C
+  C -->|"GET, POST, PUT, DELETE /topicos"| H["TopicoController"]
+  H --> R["TopicoRepository"]
+  R --> DB[("MySQL")]
+```
 
-<!-- Métrica sugerida: nº de endpoints, cobertura de testes ou tempo médio de resposta. -->
+API REST para um fórum, com CRUD de tópicos, validação de duplicidade, migração Flyway e persistência em MySQL. O endpoint de login emite um JWT; a validação de credenciais e do token está no roadmap de segurança.
 
-### Meteoro de Lógica — plataforma de exercícios
+- **Domínio:** tópicos com título, mensagem, autor, curso, status e data de criação.
+- **Arquitetura:** controllers, DTOs, repository JPA e migrations versionadas.
+- **Qualidade:** teste de contexto e configuração de ambiente para banco e segredo JWT.
 
-Aplicação web com 84 exercícios de lógica das apostilas Manzano e Faccat, soluções em VisualG e JavaScript executadas no navegador, editor interativo, testes automatizados e CI.
+`Java` `Spring Boot` `JPA` `JWT` `MySQL` `Flyway`
 
-`JavaScript` `Web Worker` `HTML/CSS` `GitHub Actions`
+[Código](https://github.com/GilvamOliveira/forumhub) · [Estudo de caso](https://github.com/GilvamOliveira/forumhub/blob/master/CASE_STUDY.md)
 
-[Repositório](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA) · [Demo](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/)
+### Meteoro de Lógica
 
-### Dashboard de Salários — análise de dados
+[![Catálogo do Meteoro de Lógica com exercícios da apostila Manzano em VisualG e JavaScript](assets/projects/meteoro.png)](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/)
 
-Dashboard interativo em Streamlit com filtros, indicadores e gráficos para explorar salários na área de dados.
+Plataforma para consultar e executar 84 exercícios de lógica das apostilas Manzano e Faccat, com soluções em VisualG e JavaScript no navegador.
 
-`Python` `Pandas` `Streamlit` `Plotly`
+- **Produto:** catálogo por apostila e página, editor, terminal interativo e persistência local.
+- **Engenharia:** interpretador VisualG próprio e execução de JavaScript em Web Worker com limites de tempo e saída.
+- **Qualidade:** 23 testes automatizados e CI em cada push.
 
-[Repositório](https://github.com/GilvamOliveira/Dashboard-Salarios-Area-de-Dados)
+`JavaScript` `Web Worker` `VisualG` `HTML/CSS` `GitHub Actions`
 
-<!-- Métrica sugerida: volume de registros analisados ou nº de visualizações. -->
-
-### LiterAlura — catálogo de livros
-
-Aplicação Java que consome a API Gutendex, persiste livros e autores com JPA e oferece consultas em PostgreSQL.
-
-`Java` `Spring Boot` `JPA` `PostgreSQL`
-
-[Repositório](https://github.com/GilvamOliveira/LiterAlura)
-
-<!-- Métrica sugerida: nº de livros ou autores importados. -->
+[Demo](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/) · [Código](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA) · [Estudo de caso](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA/blob/main/CASE_STUDY.md)
 
 ## Outros projetos
 
+- **[Dashboard de Salários](https://github.com/GilvamOliveira/Dashboard-Salarios-Area-de-Dados)** — análise exploratória de salários na área de dados com Python, Pandas, Streamlit e Plotly.
+- **[LiterAlura](https://github.com/GilvamOliveira/LiterAlura)** — catálogo de livros que consome a API Gutendex e persiste dados com Java, JPA e PostgreSQL.
 - **[CambioDeMoedas](https://github.com/GilvamOliveira/CambioDeMoedas)** — conversor de moedas com API de câmbio e credenciais via variável de ambiente.
 - **[Portfólio de Design](https://github.com/GilvamOliveira/design-portfolio)** — 8 projetos de interface e protótipos no Figma.
 
 ## Como trabalho
 
-- Código organizado por responsabilidade, com README e instruções de execução reproduzíveis.
-- Testes automatizados e CI em projetos selecionados.
-- Configurações sensíveis fora do repositório, via variáveis de ambiente.
+- Começo pelo problema e pelos fluxos; só então escolho a stack.
+- Deixo README, variáveis de ambiente e instruções de execução reproduzíveis.
+- Testo o que dá para testar e automatizo a verificação com CI.
+- Documento decisões e limites conhecidos, em vez de esconder dívida técnica.
 
 ## Formação
 
@@ -104,6 +106,6 @@ Aplicação Java que consome a API Gutendex, persiste livros e autores com JPA e
 
 ## Contato
 
-[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [GitHub](https://github.com/GilvamOliveira) · [Portfólio de Design](https://github.com/GilvamOliveira/design-portfolio)
+[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [GitHub](https://github.com/GilvamOliveira)
 
 Para propostas e conversas sobre back-end, dados e desenvolvimento full stack, envie uma mensagem pelo LinkedIn ou e-mail.
