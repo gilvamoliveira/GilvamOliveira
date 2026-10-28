@@ -38,7 +38,7 @@ Plataforma de estudo com 84 exercícios de lógica das apostilas Manzano e Facca
 
 **Meu papel:** resolvi os 84 exercícios nas duas linguagens; a interface foi construída com apoio de IA.
 
-`JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/) · [Código](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA)
+`JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/meteoro-de-logica/) · [Código](https://github.com/GilvamOliveira/meteoro-de-logica)
 
 ### Cadastro de Clientes
 
@@ -46,7 +46,7 @@ Cadastro de clientes com validação de campos, busca, filtros, paginação e ex
 
 **Meu papel:** construí a base seguindo o projeto do curso e sigo evoluindo o back-end.
 
-`JavaScript` `Node.js` `SQLite` `REST` · [Demo](https://gilvamoliveira.github.io/CRUD/) · [Código](https://github.com/GilvamOliveira/CRUD)
+`JavaScript` `Node.js` `SQLite` `REST` · [Demo](https://gilvamoliveira.github.io/client-registry/) · [Código](https://github.com/GilvamOliveira/client-registry)
 
 ### Exercícios de HTML e CSS
 
@@ -54,7 +54,7 @@ Trilha com 70 exercícios de HTML5 e CSS3 feitos no PROA, de semântica e formul
 
 **Meu papel:** todos os 70 exercícios.
 
-`HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/HTML5-CSS3-Exercises-PROA/) · [Código](https://github.com/GilvamOliveira/HTML5-CSS3-Exercises-PROA)
+`HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/html-css-exercises/) · [Código](https://github.com/GilvamOliveira/html-css-exercises)
 
 ## Formação
 

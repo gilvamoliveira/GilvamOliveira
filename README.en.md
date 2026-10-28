@@ -38,7 +38,7 @@ Study platform with 84 programming-logic exercises from the Manzano and Faccat w
 
 **My role:** I solved all 84 exercises in both languages; the interface was built with AI assistance.
 
-`JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/) · [Source](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA)
+`JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/meteoro-de-logica/) · [Source](https://github.com/GilvamOliveira/meteoro-de-logica)
 
 ### Client Registry
 
@@ -46,7 +46,7 @@ Client registry with field validation, search, filters, pagination and export, a
 
 **My role:** I built the base following the course project and keep improving it while studying the back-end.
 
-`JavaScript` `Node.js` `SQLite` `REST` · [Demo](https://gilvamoliveira.github.io/CRUD/) · [Source](https://github.com/GilvamOliveira/CRUD)
+`JavaScript` `Node.js` `SQLite` `REST` · [Demo](https://gilvamoliveira.github.io/client-registry/) · [Source](https://github.com/GilvamOliveira/client-registry)
 
 ### HTML and CSS Exercises
 
@@ -54,7 +54,7 @@ A 70-exercise HTML5 and CSS3 track built at PROA, from semantics and forms to la
 
 **My role:** all 70 exercises.
 
-`HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/HTML5-CSS3-Exercises-PROA/) · [Source](https://github.com/GilvamOliveira/HTML5-CSS3-Exercises-PROA)
+`HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/html-css-exercises/) · [Source](https://github.com/GilvamOliveira/html-css-exercises)
 
 ## Education
 
