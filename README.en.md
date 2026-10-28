@@ -12,7 +12,7 @@ São Paulo, Brazil — remote or hybrid
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oliveiragilvam70@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-58E6A8?style=flat-square&logo=vercel&logoColor=black)](https://gilvamoliveira.vercel.app)
 
-[GitHub](https://github.com/GilvamOliveira) · [Português](README.md)
+[Português](README.md)
 
 </div>
 
@@ -22,7 +22,7 @@ São Paulo, Brazil — remote or hybrid
 
 I'm studying at Instituto PROA and building my portfolio in public. I solved 84 programming-logic exercises from the Manzano and Faccat workbooks by hand in VisualG, then reimplemented all of them in JavaScript. I also completed 70 HTML and CSS exercises and a full-stack client registry that started as a course tutorial and evolved with filters, pagination, export and a REST API.
 
-I'm currently studying React and SQL Server. Next up is C#. I'd rather show fewer projects and be able to explain every line than list technologies I don't know yet.
+I'm currently studying React and SQL Server. Next up is C#.
 
 ## Stack
 
@@ -58,6 +58,7 @@ A 70-exercise HTML5 and CSS3 track built at PROA, from semantics and forms to la
 
 ## Education
 
+- **Oracle Next Education (ONE)** — team G9, Java, Spring Boot and REST APIs (completed July 2026)
 - **Instituto PROA** — development program covering front-end, C# and an introduction to databases (in progress)
 - **Technologist degree in Information Technology Management** — Universidade Cruzeiro do Sul (2024)
 

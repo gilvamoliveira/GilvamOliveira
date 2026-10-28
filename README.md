@@ -12,7 +12,7 @@ São Paulo — remoto ou híbrido
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oliveiragilvam70@gmail.com)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-58E6A8?style=flat-square&logo=vercel&logoColor=black)](https://gilvamoliveira.vercel.app)
 
-[GitHub](https://github.com/GilvamOliveira) · [English](README.en.md)
+[English](README.en.md)
 
 </div>
 
@@ -58,6 +58,7 @@ Trilha com 70 exercícios de HTML5 e CSS3 feitos no PROA, de semântica e formul
 
 ## Formação
 
+- **Oracle Next Education (ONE)** — equipe G9, formação em Java, Spring Boot e APIs REST (concluído em julho de 2026)
 - **Instituto PROA** — formação em desenvolvimento, com front-end, C# e introdução a banco de dados (em andamento)
 - **Tecnólogo em Gestão da Tecnologia da Informação** — Universidade Cruzeiro do Sul (2024)
 
