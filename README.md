@@ -22,7 +22,7 @@ São Paulo — remoto ou híbrido
 
 Estou em formação no Instituto PROA e construo meu portfólio em público. Resolvi 84 exercícios de lógica das apostilas Manzano e Faccat à mão, em VisualG, e depois reimplementei todos em JavaScript. Fiz também 70 exercícios de HTML e CSS e um cadastro de clientes full-stack que começou como tutorial do curso e evoluiu com filtros, paginação, exportação e API REST.
 
-Hoje estudo React e SQL Server. Na sequência começo C#. Prefiro mostrar menos projetos e conseguir explicar cada linha do que listar tecnologias que ainda não domino.
+Hoje estudo React e SQL Server. Na sequência começo C#.
 
 ## Stack
 
