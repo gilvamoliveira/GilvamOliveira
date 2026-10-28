@@ -2,13 +2,17 @@
 
 # Gilvam Oliveira
 
-**Desenvolvedor Full Stack**
+**Desenvolvedor front-end em formação**
 
-Java · Spring Boot · Node.js · JavaScript · SQL
+HTML5 · CSS3 · JavaScript · React · SQL Server
 
-São Paulo, SP · Aberto a estágio e posições júnior (remoto ou híbrido)
+São Paulo — remoto ou híbrido
 
-[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [GitHub](https://github.com/GilvamOliveira) · [English](README.en.md)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gilvam-oliveira)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oliveiragilvam70@gmail.com)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-58E6A8?style=flat-square&logo=vercel&logoColor=black)](https://gilvamoliveira.vercel.app)
+
+[GitHub](https://github.com/GilvamOliveira) · [English](README.en.md)
 
 </div>
 
@@ -16,97 +20,49 @@ São Paulo, SP · Aberto a estágio e posições júnior (remoto ou híbrido)
 
 ## Sobre
 
-Desenvolvedor full stack com base em Gestão da Tecnologia da Informação. Construo aplicações de ponta a ponta — interfaces, APIs, modelagem de dados e deploy — com foco em código legível, testes e documentação.
+Estou em formação no Instituto PROA e construo meu portfólio em público. Resolvi 84 exercícios de lógica das apostilas Manzano e Faccat à mão, em VisualG, e depois reimplementei todos em JavaScript. Fiz também 70 exercícios de HTML e CSS e um cadastro de clientes full-stack que começou como tutorial do curso e evoluiu com filtros, paginação, exportação e API REST.
 
-Busco minha primeira oportunidade como desenvolvedor full stack, com interesse especial em back-end e dados. Gosto de transformar requisitos em fluxos claros, registrar decisões e deixar cada projeto reproduzível.
+Hoje estudo React e SQL Server. Na sequência começo C#. Prefiro mostrar menos projetos e conseguir explicar cada linha do que listar tecnologias que ainda não domino.
 
 ## Stack
 
-| Área | Tecnologias |
-| --- | --- |
-| **Front-end** | HTML5 · CSS3 · JavaScript |
-| **Back-end** | Java 17 · Spring Boot · APIs REST · Node.js · JWT · C# |
-| **Dados** | Python · Pandas · SQL · MySQL · PostgreSQL · SQLite · Streamlit · Plotly |
-| **Ferramentas** | Git · GitHub · GitHub Actions · Maven · npm · Docker · Figma · IntelliJ IDEA · VS Code |
-| **Qualidade** | Testes automatizados · CI · documentação técnica |
+**Uso hoje:** HTML5 · CSS3 · JavaScript (ES6+) · React · SQL Server · SQLite · Git · GitHub · Figma · Vite
+
+**Estudando:** TypeScript · C#
 
 ## Projetos em destaque
 
-Três projetos que mostram o que sei fazer de ponta a ponta. Cada um tem um estudo de caso com contexto, decisões técnicas, testes e próximos passos.
-
-### CRUD de Clientes
-
-[![Tela do CRUD de Clientes com dashboard, filtros e tabela paginada](assets/projects/crud.png)](https://gilvamoliveira.github.io/CRUD/)
-
-Um CRUD deixou de ser exercício de formulário e virou uma aplicação completa: front-end estático, API REST e banco de dados. A mesma interface funciona online com `localStorage` ou localmente com Node.js e SQLite.
-
-- **Produto:** busca, filtros, paginação no servidor, dashboard, exportação CSV/JSON, exclusão em lote com desfazer e autenticação opcional.
-- **Engenharia:** validação nos dois lados, bloqueio de duplicidade, soft delete, headers de segurança e rate limiting.
-- **Qualidade:** 23 testes automatizados, ESLint, CI e imagem Docker.
-
-`Node.js` `SQLite` `JavaScript` `REST` `Docker`
-
-[Demo](https://gilvamoliveira.github.io/CRUD/) · [Código](https://github.com/GilvamOliveira/CRUD) · [Estudo de caso](https://github.com/GilvamOliveira/CRUD/blob/main/CASE_STUDY.md)
-
-### ForumHub
-
-```mermaid
-flowchart TD
-  C["Cliente / API"] -->|"POST /login"| A["AuthController"]
-  A --> T["TokenService"]
-  T --> J["JWT"]
-  C -->|"CRUD /topicos"| H["TopicoController"]
-  H --> D["DTOs"]
-  H --> R["TopicoRepository"]
-  R --> DB[("MySQL")]
-```
-
-API REST para um fórum, com CRUD de tópicos, validação de duplicidade, migração Flyway e persistência em MySQL. O endpoint de login emite um JWT; a validação de credenciais e do token está no roadmap de segurança.
-
-- **Domínio:** tópicos com título, mensagem, autor, curso, status e data de criação.
-- **Arquitetura:** controllers, DTOs, repository JPA e migrations versionadas.
-- **Qualidade:** teste de contexto e configuração de ambiente para banco e segredo JWT.
-
-`Java` `Spring Boot` `JPA` `JWT` `MySQL` `Flyway`
-
-[Código](https://github.com/GilvamOliveira/forumhub) · [Estudo de caso](https://github.com/GilvamOliveira/forumhub/blob/master/CASE_STUDY.md)
-
 ### Meteoro de Lógica
 
-[![Catálogo do Meteoro de Lógica com exercícios da apostila Manzano em VisualG e JavaScript](assets/projects/meteoro.png)](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/)
+Plataforma de estudo com 84 exercícios de lógica das apostilas Manzano e Faccat, com as soluções em VisualG e JavaScript lado a lado e execução direto no navegador.
 
-Plataforma para consultar e executar 84 exercícios de lógica das apostilas Manzano e Faccat, com soluções em VisualG e JavaScript no navegador.
+**Meu papel:** resolvi os 84 exercícios nas duas linguagens; a interface foi construída com apoio de IA.
 
-- **Produto:** catálogo por apostila e página, editor, terminal interativo e persistência local.
-- **Engenharia:** interpretador VisualG próprio e execução de JavaScript em Web Worker com limites de tempo e saída.
-- **Qualidade:** 23 testes automatizados e CI em cada push.
+`JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/) · [Código](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA)
 
-`JavaScript` `Web Worker` `VisualG` `HTML/CSS` `GitHub Actions`
+### Cadastro de Clientes
 
-[Demo](https://gilvamoliveira.github.io/VisualG-JavaScript-Logic-Exercises-PROA/) · [Código](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA) · [Estudo de caso](https://github.com/GilvamOliveira/VisualG-JavaScript-Logic-Exercises-PROA/blob/main/CASE_STUDY.md)
+Cadastro de clientes com validação de campos, busca, filtros, paginação e exportação, em versão estática e com API REST em Node.js e SQLite.
 
-## Outros projetos
+**Meu papel:** construí a base seguindo o projeto do curso e sigo evoluindo o back-end.
 
-- **[Dashboard de Salários](https://github.com/GilvamOliveira/Dashboard-Salarios-Area-de-Dados)** — análise exploratória de salários na área de dados com Python, Pandas, Streamlit e Plotly.
-- **[LiterAlura](https://github.com/GilvamOliveira/LiterAlura)** — catálogo de livros que consome a API Gutendex e persiste dados com Java, JPA e PostgreSQL.
-- **[CambioDeMoedas](https://github.com/GilvamOliveira/CambioDeMoedas)** — conversor de moedas com API de câmbio e credenciais via variável de ambiente.
-- **[Portfólio de Design](https://github.com/GilvamOliveira/design-portfolio)** — 8 projetos de interface e protótipos no Figma.
+`JavaScript` `Node.js` `SQLite` `REST` · [Demo](https://gilvamoliveira.github.io/CRUD/) · [Código](https://github.com/GilvamOliveira/CRUD)
 
-## Como trabalho
+### Exercícios de HTML e CSS
 
-- Começo pelo problema e pelos fluxos; só então escolho a stack.
-- Deixo README, variáveis de ambiente e instruções de execução reproduzíveis.
-- Testo o que dá para testar e automatizo a verificação com CI.
-- Documento decisões e limites conhecidos, em vez de esconder dívida técnica.
+Trilha com 70 exercícios de HTML5 e CSS3 feitos no PROA, de semântica e formulários a layout e responsividade, cada um em uma página própria.
+
+**Meu papel:** todos os 70 exercícios.
+
+`HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/HTML5-CSS3-Exercises-PROA/) · [Código](https://github.com/GilvamOliveira/HTML5-CSS3-Exercises-PROA)
 
 ## Formação
 
+- **Instituto PROA** — formação em desenvolvimento, com front-end, C# e introdução a banco de dados (em andamento)
 - **Tecnólogo em Gestão da Tecnologia da Informação** — Universidade Cruzeiro do Sul (2024)
-- **Oracle Next Education (ONE) / Alura** — Java, Spring Boot e APIs REST (concluído)
-- **Instituto PROA** — desenvolvimento com C#, front-end e banco de dados (em andamento)
 
-## Contato
+## Também no GitHub
 
-[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [GitHub](https://github.com/GilvamOliveira)
+[Portfólio de Design](https://github.com/GilvamOliveira/design-portfolio)
 
-Para propostas e conversas sobre back-end, dados e desenvolvimento full stack, envie uma mensagem pelo LinkedIn ou e-mail.
+Aberto a oportunidades de estágio e posições júnior em front-end.
