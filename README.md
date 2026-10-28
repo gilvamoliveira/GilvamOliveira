@@ -8,7 +8,7 @@ HTML5 · CSS3 · JavaScript · React · SQL Server
 
 São Paulo — remoto ou híbrido · aberto a estágio e posições júnior
 
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-58E6A8?style=flat-square&logo=vercel&logoColor=black)](https://gilvamoliveira.vercel.app)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-58E6A8?style=flat-square&logo=vercel&logoColor=black)](https://gilvam.is-a.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gilvam-oliveira)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oliveiragilvam70@gmail.com)
 
@@ -18,9 +18,9 @@ São Paulo — remoto ou híbrido · aberto a estágio e posições júnior
 
 ---
 
-[![Prévia do portfólio](assets/portfolio-preview.png)](https://gilvamoliveira.vercel.app)
+[![Prévia do portfólio](assets/portfolio-preview.png)](https://gilvam.is-a.dev)
 
-Site em React + Vite, bilíngue (PT-BR/EN-US) e com foco em acessibilidade. [Abrir portfólio →](https://gilvamoliveira.vercel.app) · [Código →](https://github.com/GilvamOliveira/portfolio)
+Site em React + Vite, bilíngue (PT-BR/EN-US) e com foco em acessibilidade. [Abrir portfólio →](https://gilvam.is-a.dev) · [Código →](https://github.com/GilvamOliveira/portfolio)
 
 ## Sobre
 
@@ -66,7 +66,7 @@ Trilha com 70 exercícios de HTML5 e CSS3 em 11 níveis, de semântica e formul�
 
 `HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/html-css-exercises/) · [Código](https://github.com/GilvamOliveira/html-css-exercises)
 
-[Ver os projetos no portfólio →](https://gilvamoliveira.vercel.app)
+[Ver os projetos no portfólio →](https://gilvam.is-a.dev)
 
 ## Design
 
@@ -86,4 +86,4 @@ Sete protótipos de UI no Figma: login, landing pages, app mobile e uma página 
 
 Aberto a estágio e posições júnior em front-end, remoto ou híbrido em São Paulo.
 
-[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [Portfólio](https://gilvamoliveira.vercel.app)
+[LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [Portfólio](https://gilvam.is-a.dev)
