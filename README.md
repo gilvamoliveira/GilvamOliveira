@@ -86,7 +86,7 @@ Oito protótipos de UI no Figma: login, landing pages, app mobile e uma página 
 
 ## Formação
 
-- **Instituto PROA** — formação em desenvolvimento com front-end, C# e introdução a banco de dados (em andamento)
+- **Instituto PROA** — formação em desenvolvimento com front-end, C# e banco de dados (em andamento)
 - **Oracle Next Education (ONE)** — equipe G9, Java, Spring Boot e APIs REST (concluído em julho de 2026)
 - **Tecnólogo em Gestão da Tecnologia da Informação** — Universidade Cruzeiro do Sul (2024)
 
