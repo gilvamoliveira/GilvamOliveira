@@ -18,7 +18,7 @@ São Paulo, Brazil — remote or hybrid · open to internships and junior roles
 
 ---
 
-[![Portfolio preview](assets/portfolio-preview.png)](https://gilvam.is-a.dev)
+[![Portfolio projects](assets/portfolio-preview.png)](https://gilvam.is-a.dev)
 
 React + Vite site, bilingual (PT-BR/EN-US) and focused on accessibility. [Open portfolio →](https://gilvam.is-a.dev) · [Source →](https://github.com/GilvamOliveira/portfolio)
 

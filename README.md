@@ -18,7 +18,7 @@ São Paulo — remoto ou híbrido · aberto a estágio e posições júnior
 
 ---
 
-[![Prévia do portfólio](assets/portfolio-preview.png)](https://gilvam.is-a.dev)
+[![Projetos do portfólio](assets/portfolio-preview.png)](https://gilvam.is-a.dev)
 
 Site em React + Vite, bilíngue (PT-BR/EN-US) e com foco em acessibilidade. [Abrir portfólio →](https://gilvam.is-a.dev) · [Código →](https://github.com/GilvamOliveira/portfolio)
 
