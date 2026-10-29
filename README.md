@@ -2,9 +2,9 @@
 
 # Gilvam Oliveira
 
-**Desenvolvedor front-end em formação**
+**Desenvolvedor back-end em formação**
 
-HTML5 · CSS3 · JavaScript · React · SQL Server
+Java · Spring Boot · Node.js · APIs REST · SQL · iniciando C#/.NET
 
 São Paulo — remoto ou híbrido · aberto a estágio e posições júnior
 
@@ -24,58 +24,70 @@ Site em React + Vite, bilíngue (PT-BR/EN-US) e com foco em acessibilidade. [Abr
 
 ## Sobre
 
-Desenvolvo interfaces com HTML semântico, CSS responsivo, JavaScript e React. Meus projetos estão publicados e com código aberto: uma plataforma com 84 exercícios de lógica, 70 exercícios de HTML e CSS e um cadastro de clientes full-stack com Node.js e SQLite.
+Desenvolvo APIs e as aplicações que consomem essas APIs. No back-end trabalho com Java, Spring Boot, Node.js e SQL; no front-end, com HTML, CSS, JavaScript e React.
 
-Concluí o Oracle Next Education (ONE) e sigo no Instituto PROA. Hoje aprofundo React, SQL Server e TypeScript. Os projetos de lógica e o cadastro têm testes automatizados e CI; o cadastro também usa ESLint e Prettier.
+Meu objetivo é atuar como desenvolvedor back-end em C#/.NET. Começo o módulo de C# do Instituto PROA e os projetos dessa stack entram aqui conforme o curso avança. Até agora, o back-end que está publicado é em Java e Node.js.
+
+Antes do PROA, concluí o Oracle Next Education (ONE), onde fiz os projetos de Java e Spring Boot que aparecem abaixo.
 
 ## Stack
 
+**Back-end:** Java 17 · Spring Boot · Spring Data JPA · Node.js · APIs REST
+
+**Dados:** SQL · MySQL · PostgreSQL · SQL Server · SQLite · Flyway
+
+**Qualidade:** JUnit · `node:test` · GitHub Actions · ESLint · Prettier · Docker
+
 **Front-end:** HTML5 · CSS3 · JavaScript (ES6+) · React · Vite
 
-**Back-end e dados:** Node.js · APIs REST · SQL · SQL Server · SQLite
+**Ferramentas:** Git · GitHub · Maven · Figma
 
-**Qualidade:** testes com `node:test` · GitHub Actions · ESLint · Prettier
-
-**Ferramentas:** Git · GitHub · Figma
-
-**Estudando:** TypeScript · C#
+**Próximo passo:** C#/.NET no Instituto PROA
 
 ## Projetos em destaque
 
+### ForumHub — API REST de fórum
+
+API de tópicos de fórum com Java 17, Spring Boot, Spring Data JPA, MySQL e Flyway. Tem DTOs, validação, migrations e cadastro que recusa título e mensagem duplicados. O login emite um JWT; a validação desse token nas requisições ainda está em implementação e isso está registrado no README.
+
+**Meu papel:** desafio do ONE — modelagem, endpoints, migrations e configuração por ambiente.
+
+`Java` `Spring Boot` `JPA` `MySQL` `JWT` · [Código](https://github.com/GilvamOliveira/forumhub)
+
+### Cadastro de Clientes — API + interface
+
+Cadastro de clientes com API REST em Node.js e SQLite, paginação, busca, filtros e ordenação feitos no servidor. A autenticação por token é opcional, há rate limiting por rota, CORS restrito e 23 testes automatizados rodando no CI. A mesma interface funciona sem back-end, com fallback para `localStorage` na demo estática.
+
+**Meu papel:** construí a base a partir do projeto do curso e evoluí a API, os testes e a configuração de deploy.
+
+`JavaScript` `Node.js` `SQLite` `REST` `Docker` · [Demo](https://gilvamoliveira.github.io/client-registry/) · [Código](https://github.com/GilvamOliveira/client-registry)
+
+### LiterAlura — catálogo de livros
+
+Catálogo que consulta a API Gutendex e salva livros e autores com JPA e PostgreSQL, permitindo buscar por título, listar autores e filtrar por idioma.
+
+**Meu papel:** implementação do desafio do ONE.
+
+`Java` `Spring Boot` `JPA` `PostgreSQL` · [Código](https://github.com/GilvamOliveira/LiterAlura)
+
 ### Meteoro de Lógica
 
-Plataforma de estudo com 84 exercícios de lógica das apostilas Manzano e Faccat, com soluções em VisualG e JavaScript lado a lado, execução no navegador, testes automatizados e CI.
+Plataforma de estudo com os 84 exercícios das apostilas Manzano e Faccat. As soluções aparecem em VisualG e JavaScript lado a lado, e um interpretador de VisualG escrito em JavaScript executa os programas direto no navegador. Tem 23 testes e CI.
 
 **Meu papel:** resolvi os 84 exercícios nas duas linguagens; a interface foi construída com apoio de IA.
 
 `JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/meteoro-de-logica/) · [Código](https://github.com/GilvamOliveira/meteoro-de-logica)
 
-### Cadastro de Clientes
-
-Cadastro de clientes com validação de campos, busca, filtros, paginação e exportação, em versão estática e com API REST em Node.js e SQLite. Testes de API e validação.
-
-**Meu papel:** construí a base seguindo o projeto do curso e sigo evoluindo o back-end.
-
-`JavaScript` `Node.js` `SQLite` `REST` · [Demo](https://gilvamoliveira.github.io/client-registry/) · [Código](https://github.com/GilvamOliveira/client-registry)
-
-### Exercícios de HTML e CSS
-
-Trilha com 70 exercícios de HTML5 e CSS3 em 11 níveis, de semântica e formulários a layout e responsividade, com projeto final de site institucional.
-
-**Meu papel:** todos os 70 exercícios.
-
-`HTML5` `CSS3` · [Demo](https://gilvamoliveira.github.io/html-css-exercises/) · [Código](https://github.com/GilvamOliveira/html-css-exercises)
-
 [Ver os projetos no portfólio →](https://gilvam.is-a.dev)
 
 ## Design
 
-Sete protótipos de UI no Figma: login, landing pages, app mobile e uma página educativa. [Ver portfólio de design →](https://github.com/GilvamOliveira/design-portfolio)
+Oito protótipos de UI no Figma: login, landing pages, app mobile e uma página educativa. [Ver portfólio de design →](https://github.com/GilvamOliveira/design-portfolio)
 
 ## Formação
 
-- **Instituto PROA** — formação em desenvolvimento, com front-end, C# e introdução a banco de dados (em andamento)
-- **Oracle Next Education (ONE)** — equipe G9, formação em Java, Spring Boot e APIs REST (concluído em julho de 2026)
+- **Instituto PROA** — formação em desenvolvimento com front-end, C# e introdução a banco de dados (em andamento)
+- **Oracle Next Education (ONE)** — equipe G9, Java, Spring Boot e APIs REST (concluído em julho de 2026)
 - **Tecnólogo em Gestão da Tecnologia da Informação** — Universidade Cruzeiro do Sul (2024)
 
 ## Certificações
@@ -84,6 +96,6 @@ Sete protótipos de UI no Figma: login, landing pages, app mobile e uma página 
 
 ## Contato
 
-Aberto a estágio e posições júnior em front-end, remoto ou híbrido em São Paulo.
+Aberto a estágio e posições júnior em back-end, remoto ou híbrido em São Paulo.
 
 [LinkedIn](https://www.linkedin.com/in/gilvam-oliveira) · [E-mail](mailto:oliveiragilvam70@gmail.com) · [Portfólio](https://gilvam.is-a.dev)
