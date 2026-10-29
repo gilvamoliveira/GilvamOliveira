@@ -44,42 +44,6 @@ Antes do PROA, concluí o Oracle Next Education (ONE), onde fiz os projetos de J
 
 **Próximo passo:** C#/.NET no Instituto PROA
 
-## Projetos em destaque
-
-### ForumHub — API REST de fórum
-
-API de tópicos de fórum com Java 17, Spring Boot, Spring Data JPA, MySQL e Flyway. Tem DTOs, validação, migrations e cadastro que recusa título e mensagem duplicados. O login emite um JWT; a validação desse token nas requisições ainda está em implementação e isso está registrado no README.
-
-**Meu papel:** desafio do ONE — modelagem, endpoints, migrations e configuração por ambiente.
-
-`Java` `Spring Boot` `JPA` `MySQL` `JWT` · [Código](https://github.com/GilvamOliveira/forumhub)
-
-### Cadastro de Clientes — API + interface
-
-Cadastro de clientes com API REST em Node.js e SQLite, paginação, busca, filtros e ordenação feitos no servidor. A autenticação por token é opcional, há rate limiting por rota, CORS restrito e 23 testes automatizados rodando no CI. A mesma interface funciona sem back-end, com fallback para `localStorage` na demo estática.
-
-**Meu papel:** construí a base a partir do projeto do curso e evoluí a API, os testes e a configuração de deploy.
-
-`JavaScript` `Node.js` `SQLite` `REST` `Docker` · [Demo](https://gilvamoliveira.github.io/client-registry/) · [Código](https://github.com/GilvamOliveira/client-registry)
-
-### LiterAlura — catálogo de livros
-
-Catálogo que consulta a API Gutendex e salva livros e autores com JPA e PostgreSQL, permitindo buscar por título, listar autores e filtrar por idioma.
-
-**Meu papel:** implementação do desafio do ONE.
-
-`Java` `Spring Boot` `JPA` `PostgreSQL` · [Código](https://github.com/GilvamOliveira/LiterAlura)
-
-### Meteoro de Lógica
-
-Plataforma de estudo com os 84 exercícios das apostilas Manzano e Faccat. As soluções aparecem em VisualG e JavaScript lado a lado, e um interpretador de VisualG escrito em JavaScript executa os programas direto no navegador. Tem 23 testes e CI.
-
-**Meu papel:** resolvi os 84 exercícios nas duas linguagens; a interface foi construída com apoio de IA.
-
-`JavaScript` `VisualG` `HTML` `CSS` · [Demo](https://gilvamoliveira.github.io/meteoro-de-logica/) · [Código](https://github.com/GilvamOliveira/meteoro-de-logica)
-
-[Ver os projetos no portfólio →](https://gilvam.is-a.dev)
-
 ## Design
 
 Oito protótipos de UI no Figma: login, landing pages, app mobile e uma página educativa. [Ver portfólio de design →](https://github.com/GilvamOliveira/design-portfolio)
