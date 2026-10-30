@@ -46,7 +46,7 @@ Antes do PROA, concluí o Oracle Next Education (ONE), onde fiz os projetos de J
 
 ## Design
 
-Oito protótipos de UI no Figma: login, landing pages, app mobile e uma página educativa. [Ver portfólio de design →](https://github.com/GilvamOliveira/design-portfolio)
+Protótipos de UI no Figma: login, landing pages, app mobile e uma página educativa. [Ver portfólio de design →](https://github.com/GilvamOliveira/design-portfolio)
 
 ## Formação
 
