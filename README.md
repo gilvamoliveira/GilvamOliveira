@@ -28,7 +28,7 @@ Desenvolvo APIs e as aplicações que consomem essas APIs. No back-end trabalho 
 
 Meu objetivo é atuar como desenvolvedor back-end em C#/.NET. Começo o módulo de C# do Instituto PROA e os projetos dessa stack entram aqui conforme o curso avança. Até agora, o back-end que está publicado é em Java e Node.js.
 
-Antes do PROA, concluí o Oracle Next Education (ONE), onde fiz os projetos de Java e Spring Boot que aparecem abaixo.
+Antes do PROA, concluí o Oracle Next Education (ONE), onde fiz os projetos de Java e Spring Boot.
 
 ## Stack
 
